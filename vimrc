@@ -1,5 +1,5 @@
 
-# create no backup and swap but use persistent undo
+" create no backup and swap but use persistent undo
 set nobackup
 set nowb
 set noswapfile
