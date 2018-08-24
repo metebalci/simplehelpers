@@ -1,5 +1,5 @@
 
-" create no backup and swap but use persistent undo
+" create no backup and swap but use persistent undo under $HOME/.VIM_UNDO_FILES
 set nobackup
 set nowb
 set noswapfile
