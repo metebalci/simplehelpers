@@ -13,3 +13,6 @@ bash functions/scripts:
 i3 config:
 
 * config.i3: some lines from my config
+
+vim config:
+* vimrc: some lines from my config
