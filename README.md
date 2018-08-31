@@ -16,3 +16,6 @@ i3 config:
 
 vim config:
 * vimrc: some lines from my config
+
+other:
+* petalinux_env_packages_ubuntu.sh: packages to install for a Peta Linux environment.
