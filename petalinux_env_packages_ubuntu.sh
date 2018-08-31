@@ -5,4 +5,4 @@
 
 # need to dpkg --add-architecture i386 before if needed
 
-apt-get install build-essential dos2unix libncurses5-dev zlib1g-dev zlib1g-dev:i386 libssl-dev flex bison diffstat chrpath socat xterm autoconf libtool-bin unzip texinfo gcc-multilib libsdl1.2-dev pax
+apt-get install build-essential dos2unix libncurses5-dev zlib1g-dev zlib1g-dev:i386 libssl-dev flex bison diffstat chrpath socat xterm autoconf libtool-bin unzip texinfo gcc-multilib libsdl1.2-dev pax xvfb
