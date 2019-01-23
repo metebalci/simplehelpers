@@ -1,5 +1,6 @@
-# list last 10 or <n> files updated
+# list last 10 files modified under current dir or a dir specified
 # very useful for folders like Downloads
+# usage: ll or ll ~/Downloads
 
 function ll {
 
@@ -11,8 +12,9 @@ function ll {
     
 }   
 
-# move last <n> files updated in a source dir to a destination dir
+# move last <n> files modified in a source dir to a destination dir
 # very useful for folders like Downloads
+# usage: mvll 3 ~/Downloads .
     
 function mvll {
     
