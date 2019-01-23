@@ -5,7 +5,7 @@ At the moment, they are mostly for (Ubuntu) Linux.
 
 bash functions/scripts:
 
-* ls_mv_last.sh: list (ll) and move (mvll) last 10 (or <n>) modified files
+* ls_mv_last.sh: list (ll) last 10 files and move (mvll) last <n> modified files to another dir
 * cdgr.sh: change directory (cd) to git (repository) root 
 * list_modified_files_of_packages.sh: lists the modified files installed with (deb, apt) packages
 * strip_whitespaces.sh: removes some whitespaces such as the line feed and space characters in stdin
