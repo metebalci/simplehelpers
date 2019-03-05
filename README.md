@@ -10,6 +10,7 @@ bash functions/scripts:
 * list_modified_files_of_packages.sh: lists the modified files installed with (deb, apt) packages
 * strip_whitespaces.sh: removes some whitespaces such as the line feed and space characters in stdin
 * todec_tohex.sh: convert the argument to/from hex to from/to decimal
+* lx-login.sh: login to lxc container as ubuntu, with bash completion
 
 i3 config:
 
