@@ -19,5 +19,8 @@ i3 config:
 vim config:
 * vimrc: some lines from my config
 
+lxd config:
+ * lxd.default.profile: default profile supporting X apps, for idmap to work `echo "root:$UID:1" | sudo tee -a /etc/subuid /etc/subgid`
+
 other:
 * petalinux_env_packages_ubuntu.sh: packages to install for a Peta Linux environment.
