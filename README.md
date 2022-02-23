@@ -23,4 +23,4 @@ lxd config:
 
 other:
  * petalinux_env_packages_ubuntu.sh: packages to install for a Peta Linux environment.
- * gnss-sdr-download-agnss.sh: download GPS AGNSS data to be used with GNSS-SDR
+ * gnss-sdr-download-agnss.sh: download GPS AGNSS data to be used with GNSS-SDR, requires cddis.nasa.gov account
