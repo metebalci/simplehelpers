@@ -1,7 +1,6 @@
 # simplehelpers
-simple things that improves using the computer
 
-At the moment, they are mostly for (Ubuntu) Linux.
+simple helper scripts
 
 bash functions/scripts:
 
@@ -23,4 +22,5 @@ lxd config:
  * lxd.default.profile: default profile supporting X apps, for idmap to work `echo "root:$UID:1" | sudo tee -a /etc/subuid /etc/subgid`
 
 other:
-* petalinux_env_packages_ubuntu.sh: packages to install for a Peta Linux environment.
+ * petalinux_env_packages_ubuntu.sh: packages to install for a Peta Linux environment.
+ * gnss-sdr-download-agnss.sh: download GPS AGNSS data to be used with GNSS-SDR
