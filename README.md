@@ -10,6 +10,11 @@ bash functions/scripts:
 * strip_whitespaces.sh: removes some whitespaces such as the line feed and space characters in stdin
 * todec_tohex.sh: convert the argument to/from hex to from/to decimal
 * lx-login.sh: login to lxc container as ubuntu, with bash completion
+  
+Proxmox VE helpers:
+  
+* add-taskset-hook.sh: from vmid and numa node number, create the cpuset file (cpu numbers) and set the hook for vmid, to be used in Proxmox VE
+* taskset-hook.sh: snippet to set cpu affinity in Proxmox VE guests, can be used with add-taskset-hook.sh
 
 i3 config:
 
