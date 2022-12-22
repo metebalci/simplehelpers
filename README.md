@@ -11,11 +11,6 @@ bash functions/scripts:
 * todec_tohex.sh: convert the argument to/from hex to from/to decimal
 * lx-login.sh: login to lxc container as ubuntu, with bash completion
   
-Proxmox VE helpers:
-  
-* add-taskset-hook.sh: from vmid and numa node number, create the cpuset file (cpu numbers) and set the hook for vmid, to be used in Proxmox VE
-* taskset-hook.sh: snippet to set cpu affinity in Proxmox VE guests, can be used with add-taskset-hook.sh
-
 i3 config:
 
 * config.i3: some lines from my config
@@ -24,7 +19,11 @@ vim config:
 * vimrc: some lines from my config
 
 lxd config:
- * lxd.default.profile: default profile supporting X apps, for idmap to work `echo "root:$UID:1" | sudo tee -a /etc/subuid /etc/subgid`
+* lxd.default.profile: default profile supporting X apps, for idmap to work `echo "root:$UID:1" | sudo tee -a /etc/subuid /etc/subgid`
+
+dpdk:
+* build-dpdk.sh: builds dpdk (dpdk src under dpdk dir, build output in dpdk-build folder), tested on Ubuntu 22.04 with DPDK 22.11.1 (LTS)
+* iommugroups.sh: shows which PCI device is under which IOMMU group
 
 other:
  * petalinux_env_packages_ubuntu.sh: packages to install for a Peta Linux environment.
